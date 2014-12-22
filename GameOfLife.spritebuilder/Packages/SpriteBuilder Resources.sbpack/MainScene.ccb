@@ -210,6 +210,8 @@
 						<string>Grid.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -257,7 +259,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>28.5</real>
+											<real>21.5</real>
 											<real>26.5</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1198,7 +1200,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>28</real>
+											<real>21</real>
 											<real>83.5</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1306,7 +1308,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>28</real>
+											<real>21</real>
 											<real>134</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1389,7 +1391,7 @@
 										<string>String</string>
 										<key>value</key>
 										<array>
-											<string>Title</string>
+											<string></string>
 											<false/>
 										</array>
 									</dict>
@@ -1481,7 +1483,7 @@
 										<string>FloatScale</string>
 										<key>value</key>
 										<array>
-											<real>17</real>
+											<real>13</real>
 											<integer>0</integer>
 										</array>
 									</dict>
@@ -1599,8 +1601,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1634,7 +1634,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>28</real>
+											<real>21</real>
 											<real>182</real>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1717,7 +1717,7 @@
 										<string>String</string>
 										<key>value</key>
 										<array>
-											<string>Title</string>
+											<string></string>
 											<false/>
 										</array>
 									</dict>
