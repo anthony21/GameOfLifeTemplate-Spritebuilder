@@ -47,7 +47,7 @@
 				<key>children</key>
 				<array/>
 				<key>customClass</key>
-				<string>grid</string>
+				<string>Grid</string>
 				<key>displayName</key>
 				<string>grid</string>
 				<key>memberVarAssignmentName</key>
