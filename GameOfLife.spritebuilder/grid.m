@@ -134,19 +134,21 @@ static const int GRID_COLUMNS = 10;
     }
 
 -(void)updateCreatures{
-    
+    int numAlive=0;
     for(int k=0; k < [_gridArray count]; k++){
         for(int l=k; l < [_gridArray[k] count]; l++){
             
             Creature *current = _gridArray[k][l];
             if(current.livingNeighbors == 3){
                 current.isAlive = true;
+                numAlive++;
         }
             else if (current.livingNeighbors <=1 ||current.livingNeighbors > 4){
                 current.isAlive = false;
             }
         }
     }
+    _totalAlive = numAlive;
 }
 
 @end
