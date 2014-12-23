@@ -21,7 +21,6 @@
     
     if(self){
         _timer = [[CCTimer alloc]init];
-        
     }
     return self;
 }
@@ -39,6 +38,5 @@
     _generationLabel.string = [NSString stringWithFormat:@"%d", _grid.generation];
     _populationLabel.string = [NSString stringWithFormat:@"%d", _grid.totalAlive];
 }
-
 
 @end
