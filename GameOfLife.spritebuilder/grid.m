@@ -142,7 +142,6 @@ static const int GRID_COLUMNS = 10;
             if(current.livingNeighbors == 3){
                 current.isAlive = true;
                 numAlive++;
-                NSLog(@"%@",current.isAlive);
         }
             else if (current.livingNeighbors <=1 ||current.livingNeighbors > 4){
                 current.isAlive = false;
